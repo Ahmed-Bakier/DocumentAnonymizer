@@ -1,0 +1,79 @@
+/* YazarPanel.css */
+
+/* Main Container */
+.yazar-panel {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    animation: slideIn 0.6s ease-out;
+  }
+  
+  /* Title */
+  .yazar-panel h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Tab Buttons Container */
+  .tab-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Tab Button Styles */
+  .tab-button {
+    padding: 10px 20px;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .tab-button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .tab-button.active {
+    background: #0056b3;
+  }
+  
+  /* Active Tab Content */
+  .tab-content {
+    animation: fadeIn 0.5s ease;
+  }
+  
+  /* Animations */
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

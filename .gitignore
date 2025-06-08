@@ -1,0 +1,11 @@
+venv/
+backend/venv/
+*.pyc
+<<<<<<< HEAD
+=======
+__pycache__/
+<<<<<<< HEAD
+>>>>>>> 9cb37a9c853ce35743807dae028a21ac99670560
+=======
+>>>>>>> 9cb37a9 (Removed .pyc files and updated .gitignore)
+>>>>>>> 2e8050408ecaf75324f073019526e1e050a482c7

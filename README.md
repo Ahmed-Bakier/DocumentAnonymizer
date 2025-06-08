@@ -70,6 +70,6 @@ The editor can securely restore redacted author information using the encrypted 
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/yourusername/secure-document-anonymization.git](https://github.com/Egir1121/BelgeAnonimlestirici.git)
+   git clone [https://github.com/yourusername/secure-document-anonymization.git](https://github.com/Ahmed-Bakier/DocumentAnonymizer.git)
    cd secure-document-anonymization
-](https://github.com/Egir1121/BelgeAnonimlestirici.git)
+](https://github.com/Ahmed-Bakier/DocumentAnonymizer.git)
